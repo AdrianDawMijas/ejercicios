@@ -65,7 +65,7 @@
 #######
         </pre>
         <button onclick="triangleCicle(),triangleCiclePantalla()">Ver ejercicio</button>
-        <div id="resultadoEjercicio" >
+        <div id="resultadoEjercicio1" >
 
         </div>
     </div>
@@ -75,13 +75,17 @@
         <p>Escribe un programa que use <code>console.log</code> para imprimir todos los números de 1 a 100, con dos excepciones. Para números divisibles por 3, imprime "Fizz" en lugar del número, y para los números divisibles por 5 (y no por 3), imprime "Buzz" en su lugar.</p>
         <p>Cuando tengas eso funcionando, modifica tu programa para imprimir "FizzBuzz", para números que sean divisibles entre 3 y 5 (y aún imprimir "Fizz" o "Buzz" para números divisibles por solo uno de ellos).</p>
         <p>(Esta es en realidad una pregunta de entrevista que se ha hecho elimina un porcentaje significativo de candidatos a programadores. Así que si la puedes resolver, tu valor en el mercado laboral acaba de subir).</p>
-        <button onclick="numerosHasta100()">Ver ejercicio</button>
+        <button onclick="numerosHasta100(), numerosHasta100Pantalla()">Ver ejercicio</button>
+        <div id="resultadoEjercicio2" >
+
+        </div>
     </div>
 
     <div class="exercise">
         <h2>Ejercicio 3 – Tablero de Ajedrez</h2>
         <p>Escribe un programa que cree un string que represente una cuadrícula de 8 × 8, usando caracteres de nueva línea para separar las líneas. En cada posición de la cuadrícula hay un espacio o un carácter "#". Los caracteres deberían de formar un tablero de ajedrez.</p>
         <p>Pasar este string a <code>console.log</code> debería mostrar algo como esto:</p>
+
         <pre>
  # # # # 
 # # # # 
@@ -93,14 +97,20 @@
 # # # #
         </pre>
         <p>Cuando tengas un programa que genere este patrón, define una vinculación <code>tamaño = 8</code> y cambia el programa para que funcione con cualquier tamaño, dando como salida una cuadrícula con el alto y ancho dados.</p>
-        <button onclick="ajedrez()">Ver ejercicio</button>
+        <button onclick="ajedrez(),ajedrezPantalla()">Ver ejercicio</button>
+        <div id="resultadoEjercicio3" >
+
+        </div>
     </div>
 
     <div class="exercise">
         <h2>Ejercicio 4 – Mínimo</h2>
         <p>La función estándar <code>Math.min</code> devuelve su argumento más pequeño. Nosotros podemos construir algo como eso ahora.</p>
         <p>Escribe una función <code>min</code> que tome dos argumentos y retorne su mínimo.</p>
-        <button onclick="minimo(3,4)">Ver ejercicio</button>
+        <button onclick="minimo(3,4),minimoPantalla(3,4)">Ver ejercicio</button>
+        <div id="resultadoEjercicio4" >
+
+        </div>
     </div>
 
     <div class="exercise">
@@ -108,7 +118,10 @@
         <p>Puedes obtener el N-ésimo carácter, o letra, de un string escribiendo <code>string[N]</code>. El valor devuelto será un string que contiene solo un carácter (por ejemplo, "f"). El primer carácter tiene posición cero, lo que hace que el último se encuentre en la posición <code>string.length - 1</code>. En otras palabras, un string de dos caracteres tiene una longitud de 2, y sus caracteres tendrán las posiciones 0 y 1.</p>
         <p>Escribe una función <code>contarFs</code> que tome un string como su único argumento y devuelva un número que indica cuántos caracteres “F” en mayúsculas haya en el string.</p>
         <p>Después, escribe una función llamada <code>contarCaracteres</code> que se comporte como <code>contarFs</code>, excepto que toma un segundo argumento que indica el carácter que debe ser contado (en lugar de contar solo caracteres “F” en mayúscula). Reescribe <code>contarFs</code> para que haga uso de esta nueva función.</p>
-        <button onclick="contarFs('Hola amigo')">Ver ejercicio</button>
+        <button onclick="contarFs()">Ver ejercicio</button>
+        <div id="resultadoEjercicio5" >
+
+        </div>
     </div>
 
     <script src="ejercicio1.js"></script>
